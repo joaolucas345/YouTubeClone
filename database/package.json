@@ -1,0 +1,14 @@
+{
+  "name": "database",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "up": "node src/up.js",
+    "down": "node src/down.js",
+    "create": "node src/create.js"
+  },
+  "dependencies": {
+    "mariadb": "^2.5.4"
+  }
+}

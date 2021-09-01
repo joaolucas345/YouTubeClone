@@ -1,0 +1,18 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev:api":"nodemon --exec sucrase-node api/src/server.js"
+  },
+  "dependencies": {
+    "apollo-server-express": "^3.3.0",
+    "express": "^4.17.1",
+    "graphql": "^15.5.2",
+    "sucrase": "^3.20.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
